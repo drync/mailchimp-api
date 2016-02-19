@@ -77,6 +77,8 @@ module Mailchimp
     end
     class ListInvalidImportError < Error
     end
+    class ListRoleEmailMember < Error
+    end
     class MCPastedListDuplicateError < Error
     end
     class MCPastedListInvalidImportError < Error

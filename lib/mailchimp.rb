@@ -93,6 +93,7 @@ module Mailchimp
                 'List_AlreadySubscribed' => ListAlreadySubscribedError,
                 'List_NotSubscribed' => ListNotSubscribedError,
                 'List_InvalidImport' => ListInvalidImportError,
+                'List_RoleEmailMember' => ListRoleEmailMember,
                 'MC_PastedList_Duplicate' => MCPastedListDuplicateError,
                 'MC_PastedList_InvalidImport' => MCPastedListInvalidImportError,
                 'Email_AlreadySubscribed' => EmailAlreadySubscribedError,
